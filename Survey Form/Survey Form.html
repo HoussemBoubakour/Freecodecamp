@@ -1,24 +1,23 @@
 <html>
 <head>
-        <link rel="stylesheet" href="Survey Form.css">
+          <link rel="stylesheet" href="Survey Form.css">
     <title>
     FCC: Survey Form
     </title>
 </head>
 <body>
-    <div id="title">
-            <h1>freeCodeCamp Survey Form</h1>
-    </div>
+       <h1 id="title">freeCodeCamp Survey Form</h1>
+
     <p id="description">
             <br> Thank you for taking the time to help us improve the platform
     </p>
     
     <form id="survey-form">
         <label for="name" id="name-label">Name</label>
-        <br><input id="name" name="name" type="text" placeholder="Enter your name">
+        <br><input id="name" name="name" type="text" placeholder="Enter your name" required>
         
         <br><label id="email-label">Email</label>
-        <br><input id="email" name="email" type="email" placeholder="Enter your email">
+        <br><input id="email" name="email" type="email" placeholder="Enter your email" required>
         
         <br><label id="number-label">Age (optional)</label>
         <br><input id="number" name="age" type="number" min="0" max="99" placeholder="Age">
@@ -34,11 +33,11 @@
         </select>
         
         <br><label>Would you recommend freeCodeCamp to a friend?</label>
-        <br><input name="name"type="radio">
+        <br><input name="name"type="radio" value="1">
         <label>Definitely</label>
-        <br><input name="name"type="radio">
+        <br><input name="name"type="radio" value="2">
         <label>Maybe</label>
-        <br><input name="name"type="radio">
+        <br><input name="name"type="radio" value="3">
         <label>Not sure</label>
         
         <br><label>What is your favorite feature of freeCodeCamp?</label>
@@ -83,10 +82,11 @@
 
     <br><input type="checkbox" value="Additional Courses">
     <label>Additional Courses</label>
-
+<br>
     <label>Any comments or suggestions?</label>
-    <br><input type="text-holder">
-    <br><button>Submit</button>
+    <br><textarea></textarea>
+        <br><button id="submit">Submit</button>
+
     </form>
 
         
