@@ -1,28 +1,110 @@
+.container {
+  width: 100%;
+  margin: 3.5rem auto 0 auto;
+}
+
+@media (min-width: 700px) {
+  .container {
+    max-width: 750px;
+  }
+}
+
+@media (min-width: 880px) {
+  .container {
+    max-width: 850px;
+  }
+}
+body{
+  font-family: 'PT Sans', sans-serif;
+  padding:1em;
+  font-size:2em;
+  background-color:#1B1B1E;
+  background-image: url(https://images.unsplash.com/photo-1550645612-83f5d594b671?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9);
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+  display:block;
+  
+}
 #title {
-     
+  text-align:center;
+  color:#DB8A74;
 }
 
 #description{
-      
+  text-align:center;
+  color:#DB8A74;   
 }
 #survey-form{
-
-}
+  background-color:#373F51;
+  border-radius:10px;
+  padding:1em;
+ }
 #submit{
-  
+  border: none;
+  width:20%;
+  height:2em;
+  margin-left:40%;
+  margin-bottom:10px;
+  font-size:1em;
+  border-radius:10px;
+  background: #0FA3B1;
 }
 #dropdown{
-  
+  width:99%;
+  height:2em;
+  font-size:1em;
+  margin-left:5px;
+  border-radius:10px;
+  color:grey;
 }
 #checkbox{
-  
+    height:20px;
+    width:20px;
+    border-radius:5px;
+    border:1px solid #ff7e02;
+}
+#radio{
+    height:20px;
+    width:20px;
+    border-radius:5px;
+    border:1px solid #ff7e02;
 }
 #number{
-  
+  width:99%;
+  height:2em;
+  margin-left:5px;
+  font-size:0.8em;
+  border-radius:10px;
 }
 #email{
-  
+    width:99%;
+    height:2em;
+    margin-left:5px;
+    font-size:0.8em;
+    border-radius:10px;
 }
 #name{
-  
+  width:99%;
+  height:2em;
+  margin-left:5px;
+  font-size:0.8em;
+  border-radius:10px;
+}
+#ta{
+  width:95%;
+  height:300px;
+  margin-left:10px;
+  margin-top:10px;
+  border-radius:10px;
+  font-size:1.5em;
+}
+label{
+  font-size:1em;
+  padding:0.7em;
+  color:white;
+  font-family: 'Playfair Display', serif;
+}
+#label1{
+  color:#DB8A74;
 }
