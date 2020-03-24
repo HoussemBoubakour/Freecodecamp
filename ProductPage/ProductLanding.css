@@ -1,33 +1,98 @@
+@media only screen and (min-width: 601px) {
+    .container {
+      font-size: 80px;
+      
+    }
+  }
+body{
+    background-color: #BCF4F5;
+    font-family: 'Raleway', sans-serif;
+
+}  
+a {
+    color: black;
+    text-decoration: none;
+    margin: 0 1em;
+    }
+
+li {
+    list-style: none;
+      }
+
+.container{
+        width:100%;
+        display: flex;
+        justify-content: center;
+}
+
 .nav-link{
-
+float: right;
+background-color: #BCF4F5;
+font-family: 'Raleway', sans-serif;
+font-size: 2em;
 }
+
 #header{
-
-}
-#header-img{
     
 }
-#nav-bar{
-
+#title{
+    text-align: center;
+    font-size: 300%;
+    margin: auto;
 }
-#Features{
+#header-img{
+   width: 6em;
+   height: 75%;
+   border-radius: 15px; 
+}
 
+#nav-bar{
+width:100%;
+background-color: #4ECDC4;
+border-radius: 15px;
+}
+
+#Features{
+   
 }
 #HowItWorks{
-
+    
 }
+
 #Pricing{
 
 }
-#video{
 
+#video{
+    margin: 20px;
+    width : 720px; 
+    height: 480px;
+    border: solid;
+    border-radius: 0.5em;
 }
 #form{
-
+    align-items: center;
+    text-align: center;
 }
 #email{
-
+    text-align: center;
+    font-size: 0.6em;
+    height: 60px;
+    width: 750px;
+    border-radius: 15px;
+    margin-bottom: 0cm;
+    font-family: 'Raleway', sans-serif;
 }
 #submit{
+    text-align: center;
+    font-size: 0.6cm;
+    height: 1cm;
+    margin: 1cm;
+    margin-top: 0cm;
+    border-radius: 15px;
+    background-color: #2F6690;
+    color: white;
+    border: none;
+    font-family: 'Raleway', sans-serif;
 
 }

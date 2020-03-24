@@ -1,37 +1,55 @@
 <!DOCTYPE html>
-<div id="container">
 <header id="header">
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <link rel="stylesheet" href="ProductLanding.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
     <nav id="nav-bar">
-        <img src="https://raw.githubusercontent.com/HoussemBoubakour/Freecodecamp/master/ProductPage/logo.jpg" alt="Logo" id="header-img">
-        <button class="nav-link" href="#Pricing">Features</button>
-        <button class="nav-link" href="#HowItWorks">How it Works</button>
-        <button class="nav-link" href="#Pricing">Pricing</button>
+        <ul>
+            <li> <img src="https://raw.githubusercontent.com/HoussemBoubakour/Freecodecamp/master/ProductPage/logo.jpg" alt="logo" id="header-img"></li>
+            <li> <a class="nav-link" href="#Features">Features</a></li>
+            <li> <a class="nav-link" href="#HowItWorks">How it Works</a></li>
+            <li> <a class="nav-link" href="#Pricing">Pricing</a></li>
+        </ul>    
     </nav>
+   
 </header>
+
 <body>
+<br>
+<div id="title">    
+        <h1>HouPro</h1>
+<br>    <h4>The future is here.</h4>
+</div>
+
+<div class="container">
+       
     <form id="form" action="https://www.freecodecamp.com/email-submit">
 
-        <input id="email" name="email" type="email" placeholder="Enter Your Email !" required>
-        <input id="submit" type="submit" value="Get Started"/>
+        <input id="email" name="email" type="email" placeholder="Enter your email address" required>
+<br>    <input id="submit" type="submit" value="GET STARTED"/>
         
     </form>
+</div>
+
+<hr>
 
 <section id="Features">
 
 </section>
 
-<section id="HowItWorks">
+<hr>
 
+<section id="HowItWorks">
+    <div class="container">
+        <iframe src="https://www.youtube.com/embed/CsuQNeOTeTY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
+        </div>
 </section>
+
+<hr>
 
 <section id="Pricing">
 
 </section>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CsuQNeOTeTY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
-
-
 </body>
-</div>
 </html>
