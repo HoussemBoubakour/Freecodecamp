@@ -1,6 +1,6 @@
 @media only screen and (min-width: 601px) {
     .container {
-      font-size: 80px;
+      font-size: 20px;
       
     }
   }
@@ -9,8 +9,14 @@ body{
     font-family: 'Raleway', sans-serif;
 
 }  
+hr{
+    width: 75%;
+    align-items:center;
+    color: #433A3F;
+    border-color: #433A3F;
+}
 a {
-    color: black;
+    color: #433A3F;
     text-decoration: none;
     margin: 0 1em;
     }
@@ -27,7 +33,7 @@ li {
 
 .nav-link{
 float: right;
-background-color: #BCF4F5;
+background-color: #F7FFF7;
 font-family: 'Raleway', sans-serif;
 font-size: 2em;
 }
@@ -38,37 +44,90 @@ font-size: 2em;
 #title{
     text-align: center;
     font-size: 300%;
-    margin: auto;
+    margin: 1.5em;
 }
 #header-img{
    width: 6em;
    height: 75%;
-   border-radius: 15px; 
+   border-radius: 30px; 
 }
 
 #nav-bar{
 width:100%;
-background-color: #4ECDC4;
+background-color: #F7FFF7;
 border-radius: 15px;
+position: fixed;
+top: 0cm;
+left: 0cm;
+height: 150px;
 }
 
 #Features{
-   
+   display: grid;
+   justify-content: center;
+   grid-row-gap: 50px;
+
 }
 #HowItWorks{
     
 }
 
 #Pricing{
+    display: flex;
+    justify-content: space-evenly;
+    grid-row-gap: 50px;
+}
+#icon{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100%;
+    color: #433A3F;
+    padding: 50px;
+    border-style: double;
+    border-radius: 10px;
+    background-color: #F7FFF7;
+   
+}
+#icon-text{
+    font-size: 3em;
+    margin-left: 100px;
 
 }
-
 #video{
     margin: 20px;
     width : 720px; 
     height: 480px;
     border: solid;
     border-radius: 0.5em;
+}
+#product{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 15%;
+    color: #433A3F;
+    padding: 50px;
+    border-style: double;
+    border-radius: 10px;
+    background-color: #F7FFF7;
+    margin-bottom: 3em;
+    text-align: center;
+    align-items: center;
+    font-size: 3em;
+}
+#btn_product{
+     text-align: center;
+   font-size: 0.8cm;
+   height: 8cm;
+   width: 8cm;
+   margin: 1cm;
+   border-radius: 15px;
+   background-color: #2F6690;
+   color: white;
+   border: none;
+   font-family: 'Raleway', sans-serif;
+   margin: 150px;
 }
 #form{
     align-items: center;
@@ -80,8 +139,9 @@ border-radius: 15px;
     height: 60px;
     width: 750px;
     border-radius: 15px;
-    margin-bottom: 0cm;
     font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    margin: 15px;
 }
 #submit{
     text-align: center;
@@ -94,5 +154,13 @@ border-radius: 15px;
     color: white;
     border: none;
     font-family: 'Raleway', sans-serif;
+    margin: 15px;
 
+}
+footer{
+    
+    text-align: right;
+    background-color:#F7FFF7 ;
+    color:#433A3F ;
+    bottom: 0cm;
 }
