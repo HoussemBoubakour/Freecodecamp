@@ -38,9 +38,7 @@ font-family: 'Raleway', sans-serif;
 font-size: 2em;
 }
 
-#header{
-    
-}
+
 #title{
     text-align: center;
     font-size: 300%;
@@ -68,9 +66,7 @@ height: 150px;
    grid-row-gap: 50px;
 
 }
-#HowItWorks{
-    
-}
+
 
 #Pricing{
     display: flex;
