@@ -1,17 +1,46 @@
-/* Class */
+/* class */
 .main-section{
-
+background-color: #C1C1C1;
 }
 
 .nav-link{
-
+    background-color: #C1C1C1;
+    width: 100%;
+    margin-left: -50px;
+    font-family: 'Marcellus SC', serif;
 }
 
-/* Id */
+/* id */
+#page-title{
+    text-align: center;
+    color: #FFFBFE;
+
+}
+#title{
+    font-size: 40px;
+    background-color: #7D8491;
+    font-family: 'Marcellus SC', serif;
+}
+#list-navbar li{
+    list-style: none;
+    }
+#list-navbar a{
+    text-decoration: none;
+    color: black;
+}
+#nav-header{
+    background-color: #7D8491;
+    color: #FFFBFE;
+    font-size: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+}
 #main-doc{
-    margin-left: 320px; 
+    margin-left: 400px; 
     font-size: 28px; 
     padding: 0px 10px;
+    background-color: #170312;
+    font-family: 'Space Mono', monospace;    
 }
 #introduction{
 
@@ -32,10 +61,37 @@
 font-size: 28px; 
 position: fixed;
 height: 100%;
-width: 300px;
+width: 400px;
+border: solid;
+background-color: #C1C1C1;
+text-align: center;
+overflow:auto;
+white-space: nowrap;
+z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+}
+code{
+    display: block;
+    position: relative;
+    background-color: grey;
+    border-radius: 20px;
+    width: 60%;
+    margin: 30px;
+    margin-left: 300px;
+    
+}
+footer{
+    
+    text-align: right;
+    background-color:#C1C1C1 ;
+    color:#433A3F ;
+}
+body{
+    
 }
 
 @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
+    .sidenav {padding-top: 10px;}
     .sidenav a {font-size: 18px;}
   }
