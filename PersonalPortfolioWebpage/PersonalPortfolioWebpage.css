@@ -1,0 +1,49 @@
+@media only screen and (max-width: 601px) {
+    .container {
+      font-size: 20px;
+          }
+  }
+  body{
+      padding-top: 20px;
+  }
+  .container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.project-tile{
+
+}
+#navbar{
+position: fixed;
+width: 100%;
+background-color: burlywood;
+top: 0;
+left: 0;
+}
+#navbar li{
+    list-style: none;
+    
+    }
+    #navbar a{
+        text-align: right;
+        text-decoration: none;
+        color: black;
+        margin-right: 50px;
+        float: right;
+        }    
+#welcome-section{
+height: 100vh;
+}
+#projects{
+    height: 100vh;
+}
+#contact{
+    height: 80vh;
+}
+#profile-link{
+
+}
+#nav-link{
+    text-align: right;
+}
