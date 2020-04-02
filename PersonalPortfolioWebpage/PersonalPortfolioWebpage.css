@@ -12,38 +12,91 @@
     justify-content: center;
 }
 .project-tile{
+border: solid;
+}
+.project-tile a{
+    padding: 250px;
+    
 
 }
 #navbar{
 position: fixed;
 width: 100%;
-background-color: burlywood;
+background-color: #941B0C;
+color: white;
 top: 0;
 left: 0;
+height: 75px;
+font-family: 'Roboto', sans-serif;
+font-size: 25px;
 }
 #navbar li{
     list-style: none;
     
     }
+#tt{
+   float: left;
+  }
+  #logo{
+      margin-right: 10px;
+      border-radius: 10px;
+
+  }
+a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+
+}
     #navbar a{
+        color: white;
         text-align: right;
         text-decoration: none;
-        color: black;
         margin-right: 50px;
-        float: right;
         }    
+
 #welcome-section{
+font-family: 'Roboto', sans-serif;
 height: 100vh;
+background-color: #0D0221;
+width: 100%;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
 }
+
 #projects{
-    height: 100vh;
+font-family: 'Roboto', sans-serif;
+height: 100vh;
+background-color: #0F084B;
+width: 100%;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+text-align: center;
 }
+
 #contact{
-    height: 80vh;
+font-family: 'Roboto', sans-serif;
+height: 40vh;
+background-color: #26408B;
+width: 100%;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
 }
 #profile-link{
+    padding:40px;
 
 }
 #nav-link{
     text-align: right;
+    float: right;
 }
