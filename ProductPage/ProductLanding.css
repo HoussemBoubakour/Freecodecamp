@@ -1,11 +1,14 @@
-@media only screen and (max-width: 601px) {
+@media (min-width: 880px) {
     .container {
+      max-width: 850px;
       font-size: 20px;
-          }
+    }
   }
 body{
     background-color: #BCF4F5;
     font-family: 'Raleway', sans-serif;
+    margin: 0em;
+   
 
 }  
 hr{
@@ -26,8 +29,8 @@ li {
 
 .container{
         width:100%;
-        display: flex;
-        justify-content: center;
+       
+        
 }
 
 .nav-link{
@@ -52,18 +55,23 @@ font-size: 2em;
 #nav-bar{
 width:100%;
 background-color: #F7FFF7;
-border-radius: 15px;
 position: fixed;
 top: 0cm;
 left: 0cm;
 height: 150px;
 }
-
+#HowItWorks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #Features{
-   display: grid;
-   justify-content: center;
-   grid-row-gap: 50px;
-   text-align: center;
+    display: flex;
+   flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
   
 }
 
@@ -72,13 +80,15 @@ height: 150px;
     justify-content: space-evenly;
     grid-row-gap: 50px;
 }
+i{
+    margin-top: 50px;
+}
 #icon{
-    display: flex;
-    flex-direction: row;
+    
     height: 50%;
-    width: 100%;
+    width: 50%;
     color: #433A3F;
-    padding: 50px;
+    
     border-style: double;
     border-radius: 10px;
     background-color: #F7FFF7;
@@ -86,7 +96,7 @@ height: 150px;
 }
 #icon-text{
     font-size: 2em;
-    margin-top: 3.5%;
+   padding: 50px;
 
 }
 #video{
@@ -98,6 +108,8 @@ height: 150px;
 }
 #product{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     height: 70%;
     width: 15%;
@@ -108,7 +120,6 @@ height: 150px;
     background-color: #F7FFF7;
     margin-bottom: 3em;
     text-align: center;
-    align-items: center;
     font-size: 3em;
 }
 #product p{
@@ -129,10 +140,10 @@ height: 150px;
   
 }
 #form{
-    align-items: center;
-    text-align: center;
+        text-align: center;
 }
 #email{
+    
     text-align: center;
     font-size: 0.6em;
     height: 60px;
@@ -146,8 +157,7 @@ height: 150px;
     text-align: center;
     font-size: 0.6cm;
     height: 1cm;
-    margin: 1cm;
-    margin-top: 0cm;
+    
     border-radius: 15px;
     background-color: #2F6690;
     color: white;
@@ -157,8 +167,14 @@ height: 150px;
 
 }
 footer{
-    
+    height: 60px;
     text-align: right;
     background-color:#F7FFF7 ;
     color:#433A3F ;
+}
+
+#form1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

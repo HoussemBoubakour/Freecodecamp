@@ -1,24 +1,32 @@
-@media only screen and (max-width: 601px) {
+@media (min-width: 880px) {
     .container {
-      font-size: 20px;
-          }
+      max-width: 850px;
+    }
   }
-  body{
-      padding-top: 20px;
-  }
+ body{
+     margin: 0em;
+ }
   .container{
-    width:100%;
-    display: flex;
-    justify-content: center;
+    width:100vw;
+
 }
 .project-tile{
-border: solid;
+
+display: grid;
+justify-content: space-between;
+width: 25%;
+height: 25vh;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+align-items: center;
+
+
 }
 .project-tile a{
-    padding: 250px;
     
 
 }
+
 #navbar{
 position: fixed;
 width: 100%;
@@ -60,7 +68,8 @@ a{
 font-family: 'Roboto', sans-serif;
 height: 100vh;
 background-color: #0D0221;
-width: 100%;
+width: 100vw;
+
 color: white;
 display: flex;
 justify-content: center;
@@ -69,31 +78,33 @@ font-size: 30px;
 }
 
 #projects{
-font-family: 'Roboto', sans-serif;
 height: 100vh;
 background-color: #0F084B;
-width: 100%;
+width: 100vw;
+
+
+font-family: 'Roboto', sans-serif;
 color: white;
-display: flex;
-justify-content: center;
-align-items: center;
 font-size: 30px;
 text-align: center;
 }
 
 #contact{
-font-family: 'Roboto', sans-serif;
+
+width: 100vw;
 height: 40vh;
 background-color: #26408B;
-width: 100%;
-color: white;
 display: flex;
 justify-content: center;
 align-items: center;
+
 font-size: 30px;
+font-family: 'Roboto', sans-serif;
+color: white;
 }
 #profile-link{
     padding:40px;
+    
 
 }
 #nav-link{

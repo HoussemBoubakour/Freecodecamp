@@ -1,4 +1,11 @@
-/* class */
+
+@media (min-width: 880px) {
+    .container {
+      max-width: 850px;
+    }
+  }
+
+  /* class */
 .main-section{
 background-color: #C1C1C1;
 }
@@ -36,11 +43,13 @@ background-color: #C1C1C1;
     text-align: center;
 }
 #main-doc{
-    margin-left: 400px; 
-    font-size: 28px; 
+    margin: 0;
+    margin-left: 25vw; 
+    font-size: 25px; 
     padding: 0px 10px;
     background-color: #170312;
-    font-family: 'Space Mono', monospace;    
+    font-family: 'Space Mono', monospace;  
+    width: 75vw;  
 }
 #introduction{
 
@@ -61,7 +70,7 @@ background-color: #C1C1C1;
 font-size: 28px; 
 position: fixed;
 height: 100%;
-width: 400px;
+width: 25vw;
 border: solid;
 background-color: #C1C1C1;
 text-align: center;
@@ -82,16 +91,8 @@ code{
     
 }
 footer{
-    
+    height: 50px;
     text-align: right;
     background-color:#C1C1C1 ;
     color:#433A3F ;
 }
-body{
-    
-}
-
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 10px;}
-    .sidenav a {font-size: 18px;}
-  }
