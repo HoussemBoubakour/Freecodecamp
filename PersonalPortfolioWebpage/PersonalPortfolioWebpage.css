@@ -75,7 +75,7 @@ font-family: 'Roboto', sans-serif;
 height: 75vh;
 background-color: #0D0221;
 width: 100vw;
-padding-top: 15vw;
+padding-top: 35vh;
 }
 
 #welcome-section div{
@@ -96,6 +96,8 @@ font-size: 30px;
 text-align: center;
 }
 #projects img{
+    height: 25vh;
+    width: 20vw;
     border-radius: 50px;
     margin-bottom: 15px;
 }
