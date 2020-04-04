@@ -102,8 +102,8 @@ font-size: 30px;
 text-align: center;
 }
 #projects img{
-    height: 30vh;
-    width: 20vw;
+    height: 200px;
+    width: 400px;
     border-radius: 50px;
     margin-bottom: 15px;
 }
