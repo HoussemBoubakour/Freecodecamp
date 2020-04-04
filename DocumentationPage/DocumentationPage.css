@@ -1,13 +1,16 @@
 
 @media (min-width: 880px) {
     .container {
-      max-width: 850px;
+      max-width: 75vw;
     }
   }
-
+body{
+    overflow-x: hidden; 
+}
   /* class */
 .main-section{
 background-color: #C1C1C1;
+padding: 25px;
 }
 
 .nav-link{
@@ -49,7 +52,7 @@ background-color: #C1C1C1;
     padding: 0px 10px;
     background-color: #170312;
     font-family: 'Space Mono', monospace;  
-    width: 75vw;  
+    width: 72.8vw;
 }
 #introduction{
 
@@ -91,7 +94,7 @@ code{
     
 }
 footer{
-    height: 50px;
+    height: 75px;
     text-align: right;
     background-color:#C1C1C1 ;
     color:#433A3F ;
