@@ -7,10 +7,7 @@
      margin: 0em;
      overflow-x: hidden;
  }
-  .container{
-    width:100vw;
-    
-}
+  
 .project-tile{
 
 display: grid;
