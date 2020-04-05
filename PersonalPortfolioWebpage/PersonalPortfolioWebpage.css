@@ -3,12 +3,8 @@
       max-width: 850px;
     }
   }
-@media (min-height:200px){
-    #projects img{
-        height: 50vh;
-        width: 80vw;
-    } 
-}
+ 
+
  body{
      margin: 0em;
      overflow-x: hidden;
@@ -102,8 +98,8 @@ font-size: 30px;
 text-align: center;
 }
 #projects img{
-    height: 30vh;
-    width: 20vw;
+    height: 250px;
+    width: 350px;
     border-radius: 50px;
     margin-bottom: 15px;
 }
@@ -121,7 +117,7 @@ color: white;
 }
 
 #profile-link{
-    padding:40px;
+    padding: 0 70px;
 }
 
 #nav-link{
